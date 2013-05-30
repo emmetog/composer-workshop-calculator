@@ -1,0 +1,21 @@
+{
+    "name": "emmetog/composer-workshop-calculator",
+    "description": "A test project to play with composer",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Emmet O'Grady",
+            "email": "emmet789@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0":
+	{
+            "Emmetog\\Calculator": "src/"
+        }
+    }
+}
